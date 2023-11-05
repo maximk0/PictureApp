@@ -22,7 +22,7 @@ Browse photos and add to favorites
 11. Mockito
 
 ## Gif
-<img src="preview/video_preview.gif"  width="350">
+![video_preview](https://github.com/maximk0/PictureApp/assets/98814130/afa3f5fd-1fee-4c16-87a0-9c019c7254a3)
 
 ## Screenshots
 <img src="preview/main_screen.png"  width="340" height="700"> <img src="preview/favorite_screen.png"  width="340" height="700">
