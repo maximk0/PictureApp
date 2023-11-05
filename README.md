@@ -21,5 +21,8 @@ Browse photos and add to favorites
 10. Room
 11. Mockito
 
+## Gif
+<img src="preview/video_preview.gif"  width="350">
+
 ## Screenshots
-<img src="screenshots/main_screen.png"  width="340" height="700"> <img src="screenshots/favorite_screen.png"  width="340" height="700">
+<img src="preview/main_screen.png"  width="340" height="700"> <img src="preview/favorite_screen.png"  width="340" height="700">
