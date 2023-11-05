@@ -1,13 +1,31 @@
 package com.example.pictureapp.ui.home
 
-import androidx.lifecycle.LiveData
-import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
+import androidx.lifecycle.viewModelScope
+import androidx.paging.cachedIn
+import com.example.pictureapp.domain.model.Photo
+import com.example.pictureapp.domain.usecase.GetRandomPhotosUseCase
+import com.example.pictureapp.domain.usecase.LikePhotoUseCase
+import com.example.pictureapp.domain.usecase.UnlikePhotoUseCase
+import dagger.hilt.android.lifecycle.HiltViewModel
+import kotlinx.coroutines.launch
+import javax.inject.Inject
 
-class HomeViewModel : ViewModel() {
+@HiltViewModel
+class HomeViewModel @Inject constructor(
+    private val getRandomPhotosUseCase: GetRandomPhotosUseCase,
+    private val likePhotoUseCase: LikePhotoUseCase,
+    private val unLikePhotoUseCase: UnlikePhotoUseCase,
+) : ViewModel() {
 
-    private val _text = MutableLiveData<String>().apply {
-        value = "This is home Fragment"
+     fun randomPhotos() = getRandomPhotosUseCase().cachedIn(viewModelScope)
+
+    fun likePhoto(photo: Photo) {
+        viewModelScope.launch {
+            likePhotoUseCase(photo)
+        }
     }
-    val text: LiveData<String> = _text
+
+    fun unLikePhoto(photo: Photo) = unLikePhotoUseCase(photo)
+
 }

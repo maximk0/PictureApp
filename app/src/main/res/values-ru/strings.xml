@@ -2,6 +2,7 @@
 <resources>
     <string name="app_name">PictureApp</string>
     <string name="title_home">Главная</string>
-    <string name="title_favorites">Избранное</string>
+    <string name="title_favorite">Избранное</string>
     <string name="author">Автор:</string>
+    <string name="retry">Повторить</string>
 </resources>

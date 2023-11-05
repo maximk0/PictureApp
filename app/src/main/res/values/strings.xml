@@ -1,7 +1,8 @@
 <resources>
     <string name="app_name">PictureApp</string>
     <string name="title_home">Home</string>
-    <string name="title_favorites">Favorites</string>
+    <string name="title_favorite">Favorite</string>
     <string name="author">Author:</string>
     <string name="name" translatable="false">%s</string>
+    <string name="retry">Retry</string>
 </resources>

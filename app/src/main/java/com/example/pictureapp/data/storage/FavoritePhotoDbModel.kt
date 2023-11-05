@@ -1,4 +1,4 @@
-package com.example.pictureapp.data.database
+package com.example.pictureapp.data.storage
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
@@ -8,5 +8,6 @@ data class FavoritePhotoDbModel(
     @PrimaryKey
     val id: String,
     val author: String,
-    val url: String
+    val url: String,
+    val likeByUser: Boolean
 )

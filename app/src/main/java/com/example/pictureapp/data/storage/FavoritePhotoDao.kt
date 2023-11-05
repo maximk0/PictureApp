@@ -1,4 +1,4 @@
-package com.example.pictureapp.data.database
+package com.example.pictureapp.data.storage
 
 import androidx.room.Dao
 import androidx.room.Insert
