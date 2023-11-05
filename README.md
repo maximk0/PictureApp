@@ -22,5 +22,4 @@ Browse photos and add to favorites
 11. Mockito
 
 ## Screenshots
-<img src="screenshots/main_screen.png"  width="340" height="700"> <img src="preview/fragment_d.png"  width="340" height="700">
-<img src="screenshots/favorite_screen.png"  width="340" height="700"> <img src="preview/fragment_b.png"  width="340" height="700">
+<img src="screenshots/main_screen.png"  width="340" height="700"> <img src="screenshots/favorite_screen.png"  width="340" height="700">
