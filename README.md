@@ -1,7 +1,7 @@
 # PictureApp
 Browse photos and add to favorites
 
-Это приложение для вывода картинок с ресурса: https://picsum.photos/
+Это приложение для вывода картинок с ресурса: https://picsum.photos/.
 В приложении две вкладки:
 1) рандомные картинки
 2) любимые картинки
